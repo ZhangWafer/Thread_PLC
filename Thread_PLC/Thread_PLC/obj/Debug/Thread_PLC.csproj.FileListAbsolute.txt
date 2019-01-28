@@ -1,0 +1,8 @@
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.csprojResolveAssemblyReference.cache
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.Form1.resources
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.Properties.Resources.resources
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.csproj.GenerateResource.Cache
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\bin\Debug\Thread_PLC.exe
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\bin\Debug\Thread_PLC.pdb
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.exe
+E:\GitHub\Thread_PLC\Thread_PLC\Thread_PLC\obj\Debug\Thread_PLC.pdb
