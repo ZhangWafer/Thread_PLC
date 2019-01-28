@@ -50,8 +50,12 @@ namespace Thread_PLC
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-           axActEasyIF1.
-
+            axActEasyIF1.ActLogicalStationNumber = Convert.ToInt16(comboBox1.Text);
+            axActEasyIF1.Open();
+            while (true)
+            {
+                
+            }
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.openUsb = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,12 +44,15 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
+            this.axActEasyIF1 = new AxACTMULTILib.AxActEasyIF();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axActEasyIF1)).BeginInit();
             this.SuspendLayout();
             // 
             // openUsb
             // 
-            this.openUsb.Location = new System.Drawing.Point(145, 7);
+            this.openUsb.Location = new System.Drawing.Point(144, 53);
             this.openUsb.Name = "openUsb";
             this.openUsb.Size = new System.Drawing.Size(121, 51);
             this.openUsb.TabIndex = 0;
@@ -165,11 +169,30 @@
             this.button1.Text = "更改值";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // axActEasyIF1
+            // 
+            this.axActEasyIF1.Enabled = true;
+            this.axActEasyIF1.Location = new System.Drawing.Point(0, 0);
+            this.axActEasyIF1.Name = "axActEasyIF1";
+            this.axActEasyIF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axActEasyIF1.OcxState")));
+            this.axActEasyIF1.Size = new System.Drawing.Size(0, 0);
+            this.axActEasyIF1.TabIndex = 14;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(144, 8);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 325);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.axActEasyIF1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.textBox6);
@@ -187,6 +210,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axActEasyIF1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +233,8 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button button1;
+        private AxACTMULTILib.AxActEasyIF axActEasyIF1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
